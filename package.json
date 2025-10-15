@@ -2,13 +2,11 @@
     "name": "balaji-honda-website",
     "version": "1.0.0",
     "description": "Balaji Honda - Official Website",
-    "homepage": "https://rinkeshsabaga.github.io/balaji-honda-website",
+    "type": "module",
     "scripts": {
       "dev": "vite",
       "build": "vite build",
-      "preview": "vite preview",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d dist"
+      "preview": "vite preview"
     },
     "dependencies": {
       "react": "^18.2.0",
@@ -16,11 +14,10 @@
       "lucide-react": "^0.263.1"
     },
     "devDependencies": {
-      "@vitejs/plugin-react": "^4.0.0",
-      "vite": "^4.3.9",
-      "tailwindcss": "^3.3.2",
-      "postcss": "^8.4.24",
-      "autoprefixer": "^10.4.14",
-      "gh-pages": "^6.1.0"
+      "@vitejs/plugin-react": "^4.2.1",
+      "autoprefixer": "^10.4.16",
+      "postcss": "^8.4.32",
+      "tailwindcss": "^3.3.6",
+      "vite": "^5.0.8"
     }
   }
