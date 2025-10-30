@@ -103,8 +103,8 @@ const App = () => {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo - Left Aligned */}
                     <div className="text-2xl font-bold">
-                        <span className="text-white">BALAJI</span>
-                        <span className="text-yellow-300"> HONDA</span>
+                        <span className="text-white">Balaji</span>
+                        <span className="text-yellow-300"> Honda</span>
                     </div>
 
                     {/* Desktop Menu - Right Side */}
@@ -201,20 +201,30 @@ const App = () => {
                             <Clock className="text-yellow-400" size={32} />
                             <div className="text-left">
                                 <div className="font-semibold">Working Hours</div>
-                                <div className="text-sm">Mon-Sun: 09:00 AM - 08:00 PM</div>
+                                <div className="text-sm">Mon-Sat: 09:00 AM - 08:00 PM</div>
+                                <div className="text-sm">Sun: 09:30 AM - 03:00 PM</div>
                             </div>
                         </div>
                         <div className="flex items-center justify-center gap-3">
                             <Phone className="text-yellow-400" size={32} />
                             <div className="text-left">
                                 <div className="font-semibold">Call Us</div>
-                                <div className="text-sm">+91 98765 43210</div>
+                                <div className="text-sm">+91 9655756789</div>
                             </div>
                         </div>
                         <div className="flex items-center justify-center gap-3">
                             <MapPin className="text-yellow-400" size={32} />
                             <div className="text-left">
-                                <div className="font-semibold">Visit Us</div>
+                                <div className="font-semibold">
+                                <a
+                                  href="https://maps.app.goo.gl/m7nWHkDAjreJjtVJA"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-blue-600 hover:underline"
+                                >
+                                  Visit Us
+                                </a>
+                                </div>
                                 <div className="text-sm">Chennai, Tamil Nadu</div>
                             </div>
                         </div>
@@ -360,7 +370,7 @@ const App = () => {
                         </div>
                         <div>
                             <img
-                                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop"
+                                src="/balaji-honda-website/asset/Home.png?w=600&h=400&fit=crop"
                                 alt="Showroom"
                                 className="rounded-lg shadow-xl"
                             />
@@ -497,7 +507,7 @@ const App = () => {
                             </div>
                             <div>
                                 <img
-                                    src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop"
+                                    src="/balaji-honda-website/asset/Service.png?w=600&h=400&fit=crop"
                                     alt="Service Center"
                                     className="rounded-lg shadow-xl"
                                 />
@@ -570,8 +580,8 @@ const App = () => {
                 <div className="grid md:grid-cols-4 gap-8 mb-8">
                     <div>
                         <h3 className="text-2xl font-bold mb-4">
-                            <span className="text-white">BALAJI</span>
-                            <span className="text-yellow-400"> HONDA</span>
+                            <span className="text-white">Balaji</span>
+                            <span className="text-yellow-400"> Honda</span>
                         </h3>
                         <p className="text-gray-400 mb-4">
                             Your trusted Honda dealership for quality two-wheelers and exceptional service.
@@ -611,11 +621,12 @@ const App = () => {
                         <ul className="space-y-3 text-gray-400">
                             <li className="flex items-start gap-2">
                                 <MapPin size={20} className="mt-1 text-yellow-400" />
-                                <span>123 Main Road, Chennai, Tamil Nadu - 600001</span>
+                                <span>M/S BALAJI AUTOMOTIVE</span>
+                                <span>570, Thiruvottiyur High Rd, opp Vaigai Mahal, Korukkupet, Old Washermanpet, Chennai, Tamil Nadu 600021</span>
                             </li>
                             <li className="flex items-center gap-2">
                                 <Phone size={20} className="text-yellow-400" />
-                                <span>+91 98765 43210</span>
+                                <span>+91 96557 56789</span>
                             </li>
                             <li className="flex items-center gap-2">
                                 <Mail size={20} className="text-yellow-400" />
@@ -623,7 +634,8 @@ const App = () => {
                             </li>
                             <li className="flex items-center gap-2">
                                 <Clock size={20} className="text-yellow-400" />
-                                <span>Mon-Sun: 09:00 AM - 08:00 PM</span>
+                                <span>Mon-Sat: 09:00 AM - 08:00 PM</span>
+                                <span>Sun : 09:30 AM - 03:00 PM</>
                             </li>
                         </ul>
                     </div>
