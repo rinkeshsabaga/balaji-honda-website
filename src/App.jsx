@@ -622,6 +622,7 @@ const App = () => {
                             <li className="flex items-start gap-2">
                                 <MapPin size={20} className="mt-1 text-yellow-400" />
                                 <span>M/S BALAJI AUTOMOTIVE</span>
+                              </br>
                                 <span>570, Thiruvottiyur High Rd, opp Vaigai Mahal, Korukkupet, Old Washermanpet, Chennai, Tamil Nadu 600021</span>
                             </li>
                             <li className="flex items-center gap-2">
