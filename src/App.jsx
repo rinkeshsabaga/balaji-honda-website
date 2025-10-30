@@ -642,8 +642,8 @@ const App = () => {
     </li>
                             <li className="flex items-center gap-2">
                                 <Clock size={20} className="text-yellow-400" />
-                                <span>Mon-Sat: 09:00 AM - 08:00 PM</span>
-                                <span>Sun : 09:30 AM - 03:00 PM</span>
+                                <p>Mon-Sat: 09:00 AM - 08:00 PM</p>
+                                <p>Sun : 09:30 AM - 03:00 PM</p>
                             </li>
                         </ul>
                     </div>
