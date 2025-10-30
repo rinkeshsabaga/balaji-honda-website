@@ -617,22 +617,29 @@ const App = () => {
                     </div>
 
                     <div>
-                        <h4 className="font-bold mb-4">Contact Info</h4>
-                        <ul className="space-y-3 text-gray-400">
-                            <li className="flex items-start gap-2">
-                                <MapPin size={20} className="mt-1 text-yellow-400" />
-                                <span>M/S BALAJI AUTOMOTIVE</span>
-                              </br>
-                                <span>570, Thiruvottiyur High Rd, opp Vaigai Mahal, Korukkupet, Old Washermanpet, Chennai, Tamil Nadu 600021</span>
-                            </li>
-                            <li className="flex items-center gap-2">
-                                <Phone size={20} className="text-yellow-400" />
-                                <span>+91 96557 56789</span>
-                            </li>
-                            <li className="flex items-center gap-2">
-                                <Mail size={20} className="text-yellow-400" />
-                                <span>info@balajihonda.com</span>
-                            </li>
+  <h4 className="font-bold mb-4">Contact Info</h4>
+  <ul className="space-y-3 text-gray-400">
+    <li className="flex items-start gap-2">
+      <MapPin size={20} className="mt-1 text-yellow-400" />
+      <div>
+        <p className="font-semibold text-white">M/S BALAJI AUTOMOTIVE</p>
+        <p>570, Thiruvottiyur High Rd, opp Vaigai Mahal, Korukkupet, Old Washermanpet, Chennai, Tamil Nadu 600021</p>
+      </div>
+    </li>
+
+    <li className="flex items-center gap-2">
+      <Phone size={20} className="text-yellow-400" />
+      <a href="tel:+919655756789" className="hover:text-yellow-300">
+        +91 96557 56789
+      </a>
+    </li>
+
+    <li className="flex items-center gap-2">
+      <Mail size={20} className="text-yellow-400" />
+      <a href="mailto:info@balajihonda.com" className="hover:text-yellow-300">
+        info@balajihonda.com
+      </a>
+    </li>
                             <li className="flex items-center gap-2">
                                 <Clock size={20} className="text-yellow-400" />
                                 <span>Mon-Sat: 09:00 AM - 08:00 PM</span>
